@@ -1,0 +1,126 @@
+#wrapper{
+    grid-template-areas: "header header header" "navigation navigation navigation" "images images images" "main main sidebar" "footer footer footer";
+    display:grid;
+    
+
+}
+
+div{
+    border:2px solid saddlebrown;
+}
+
+#header{
+    grid-area:header;
+    background-color:rosybrown;
+    color:beige;
+    
+}
+
+#navigation{
+    grid-area:navigation;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    background-color:beige;
+   
+    
+}
+
+#images{
+    grid-area:images;
+    padding:20px;
+    display:inline-block;
+}
+
+#main{
+    grid-area:main;
+    padding:15px;
+    padding-bottom:25px;
+    color:brown;
+    width:900px;
+    background-color:sandybrown;
+    
+    
+
+}
+
+#sidebar{
+    grid-area:sidebar;
+    width:279px;
+    padding:15px;
+    color:brown;
+    background-color:beige;
+}
+
+#footer{
+   grid-area:footer;
+    padding:50px;
+    text-align:center;
+    background-color:saddlebrown;
+    color:beige;
+    border-top:20px solid burlywood;
+
+}
+
+body{
+    background-color:burlywood;
+}
+
+h1{
+    color:brown;
+    font-size:60px;
+    text-align:center;
+   
+}
+
+.link{
+color:brown;
+    text-decoration:none;
+    background-color:sandybrown;
+    border-radius:5px;
+    font-weight:bold;
+    
+    
+}
+
+.link:hover{
+    background-color:rosybrown;
+    border-radius:5px;
+}
+
+.images{
+    width:30%;
+    margin:20px;
+    padding:17px;
+    border:2px solid saddlebrown;
+
+}
+
+.Images{
+    width:19%;
+    margin:20px;
+    padding:20px; 
+    border:2px solid saddlebrown;
+    
+}
+
+.image{
+    width:20%;
+    border:brown 2px solid;
+    margin:10px;
+    padding:17px;
+}
+
+h3{
+    font-size:25px;
+}
+
+.copyright{
+    width:2%;
+}
+
+h2{
+    font-size:20px;
+    
+    
+}
